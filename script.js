@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",function(){
         let total=document.querySelectorAll(".task").length;
         let completed=document.querySelectorAll(".task.done").length;
         document.getElementById("count").innerText=
-        `${completed} of ${total}tasks completed`;
+        `${completed} of ${total} tasks completed`;
         }
         updateCount();
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded",function(){
              <span class="task-text">${text}</span>
              </div>
              <div class="right">
-             <img src="chke.png" class"complete icon">
+             <img src="chke.png" class="complete icon">
              <img src="delicon.png" class="delete icon">
              </div>`;
             document.getElementById("tasklist").appendChild(li);
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded",function(){
         });
         document.getElementById("clearAll").addEventListener("click",function(){
             document.getElementById("tasklist").innerHTML= "";
-            updateCount;
+            updateCount();
         });
 
 });

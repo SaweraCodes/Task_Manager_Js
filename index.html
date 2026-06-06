@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>
+                <img src="clipboard.png" alt="clipboard" class="header-icon">
+                TO-DO List
+            </h2>
+            </div>
+            <div class="input-box">
+                <input type="text" id="taskinput" placeholder="Enter a new task">
+                <button id="addtask">+ Add Task</button>
+            </div>
+            <ul id="tasklist">
+                <!--Default Task-->
+                <li class="task">
+                <div class="left">
+                    <div class="check"></div>
+                    <span class="task-text"> Complete Javascript Task</span>
+                </div>
+                <div class="right">
+                    <img src="chke.png" alt="check" class="complete icon">
+                    <img src="delicon.png" alt="trash" class="delete icon">
+                </div>
+        
+                </li>
+                <li class="task">
+                    <div class="left">
+                        <div class="check"></div>
+                        <span class="task-text">Build a To-Do list</span>
+                    </div>
+                    <div class="right">
+                        <img src="chke.png" alt="check" class="complete icon">
+                        <img src="delicon.png" alt="trash" class="delete icon">
+                        </div>
+                    </li>
+                    <li class="task">
+                    <div class="left">
+                        <div class="check"></div>
+                        <span class="task-text">Play a game</span>
+                    </div>
+                    <div class="right">
+                        <img src="chke.png" alt="check" class="complete icon">
+                        <img src="delicon.png" alt="trash" class="delete icon">
+                    </div>
+                </li>
+                    <li class="task">
+                    <div class="left">
+                        <div class="check"></div>
+                        <span class="task-text">Read a book</span>
+                    </div>
+                    <div class="right">
+                        <img src="chke.png" alt="check" class="complete icon">
+                        <img src="delicon.png" alt="trash" class="delete icon">
+                    </div>
+                </li>
+                    
+                             <li class="task">
+                    <div class="left">
+                        <div class="check"></div>
+                        <span class="task-text">go to college</span>
+                    </div>
+                    <div class="right">
+                        <img src="chke.png" alt="check" class="complete icon">
+                        <img src="delicon.png" alt="trash" class="delete icon">
+                    </div>
+                </li>
+            </ul>
+            <div class="footer">
+                <span id="count">0 of 5 tasks completed</span>
+                <button id="clearAll">Clear All</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
